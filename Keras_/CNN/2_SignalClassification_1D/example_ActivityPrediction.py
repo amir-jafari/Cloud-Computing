@@ -10,10 +10,23 @@ import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, BatchNormalization, Conv1D, Flatten, MaxPooling2D, AveragePooling2D
+from keras.layers import Dense, Dropout, BatchNormalization, Conv1D, Flatten
 from keras.optimizers import Adam
 from keras.utils import to_categorical
 from sklearn.metrics import confusion_matrix
+
+if "WISDM_ar_v1.1" not in os.listdir(os.getcwd()):
+    try:
+        os.system("wget http://www.cis.fordham.edu/wisdm/includes/datasets/latest/WISDM_ar_latest.tar.gz")
+        os.system("tar -xvzf WISDM_ar_latest.tar.gz")
+    except:
+        print("There was a problem downloading the data!!")
+        raise
+        # Go to http://www.cis.fordham.edu/wisdm/dataset.php and click Download Latest version, and untar to current dir
+    if "WISDM_ar_v1.1" not in os.listdir(os.getcwd()):
+        print("There was a problem downloading the data!!")
+        import sys
+        sys.exit()
 
 # %% --------------------------------------- Set-Up --------------------------------------------------------------------
 SEED = 42

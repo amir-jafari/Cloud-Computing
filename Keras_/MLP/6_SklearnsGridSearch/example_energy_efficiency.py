@@ -12,7 +12,17 @@ from sklearn.model_selection import train_test_split
 from keras.wrappers.scikit_learn import KerasRegressor
 from sklearn.model_selection import GridSearchCV, KFold
 
-# Download ENB2012_data.xlsx from https://archive.ics.uci.edu/ml/datasets/energy+efficiency to the current directory
+if "ENB2012_data.xlsx" not in os.listdir(os.getcwd()):
+    try:
+        os.system("wget https://archive.ics.uci.edu/ml/machine-learning-databases/00242/ENB2012_data.xlsx")
+    except:
+        print("There was a problem with the download")
+        raise
+        # Download ENB2012_data.xlsx from https://archive.ics.uci.edu/ml/datasets/energy+efficiency to the current directory
+    if "ENB2012_data.xlsx" not in os.listdir(os.getcwd()):
+        print("There was a problem with the download")
+        import sys
+        sys.exit()
 
 # %% --------------------------------------- Set-Up --------------------------------------------------------------------
 SEED = 42
