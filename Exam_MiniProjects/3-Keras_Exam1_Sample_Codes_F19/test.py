@@ -13,7 +13,7 @@ scores, f1_scores, cohen_kappa_scores, nicknames, error_messages = [], [], [], [
 for idx, username in enumerate(usernames):
     try:
         predict_script = importlib.import_module("predict_{}".format(username))
-        y_pred, model = predict_script.predict(x)
+        y_pred, *models = predict_script.predict(x)
         f1_scores.append(f1_score(y, y_pred, average="macro"))
         cohen_kappa_scores.append(cohen_kappa_score(y, y_pred))
         scores.append((f1_scores[-1] + cohen_kappa_scores[-1])/2)
