@@ -16,4 +16,4 @@ def predict(x):
     model = load_model('mlp_ajafari.hdf5')
     print(a)  # This is a bug made on purpose to show what would happen if you have one
     y_pred = np.argmax(model.predict(x), axis=1)
-    return y_pred
+    return y_pred, model

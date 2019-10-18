@@ -12,4 +12,4 @@ def predict(x):
     # %% --------------------------------------------- Predict ---------------------------------------------------------
     model = load_model('mlp_pedrouriar.hdf5')
     y_pred = np.argmax(model.predict(x), axis=1)
-    return y_pred
+    return y_pred, model
