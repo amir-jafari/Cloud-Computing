@@ -9,6 +9,7 @@ from keras.layers import Dense
 from keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
 from keras.utils import to_categorical
+from sklearn.metrics import cohen_kappa_score, f1_score
 
 
 # %% --------------------------------------- Set-Up --------------------------------------------------------------------
@@ -45,3 +46,5 @@ model.fit(x_train, y_train, batch_size=BATCH_SIZE, epochs=N_EPOCHS, validation_d
 
 # %% ------------------------------------------ Final test -------------------------------------------------------------
 print("Final accuracy on validations set:", 100*model.evaluate(x_test, y_test)[1], "%")
+print("Cohen Kappa", cohen_kappa_score(np.argmax(model.predict(x_test),axis=1),np.argmax(y_test,axis=1))
+print("F1 score", f1_score(np.argmax(model.predict(x_test),axis=1),np.argmax(y_test,axis=1), average = 'macro')
