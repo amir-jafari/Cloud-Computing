@@ -1,9 +1,9 @@
 # This script shows an example of how to test your predict function before submission
-# 0. To use this, replace x_test (line 20) with a list of image paths. And
+# 0. To use this, replace x_test (line 26) with a list of image paths. And
 # 1. Replace predict with your predict function
 # or
-# 2. Import your predict function from your predict script and remove the predict function define here)
-# Example: from predict_username import predict
+# 2. Import your predict function from your predict script and remove the predict function define here
+# Example: from predict_username (predict_ajafari) import predict
 # %% -------------------------------------------------------------------------------------------------------------------
 import numpy as np
 
