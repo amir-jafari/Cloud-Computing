@@ -15,7 +15,7 @@ def predict(x):
     # %% --------------------------------------------- Predict ---------------------------------------------------------
     model = load_model('mlp_ajafari.hdf5')
     # If using more than one model to get y_pred, they need to be named as "mlp_ajafari1.hdf5", ""mlp_ajafari2.hdf5", etc.
-    print(a)  # This is a bug made on purpose to show what would happen if you have one
+    #print(a)  # This is a bug made on purpose to show what would happen if you have one
     y_pred = np.argmax(model.predict(x), axis=1)
     return y_pred, model
     # If using more than one model to get y_pred, do the following:
