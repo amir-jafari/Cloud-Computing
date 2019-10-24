@@ -29,5 +29,5 @@ y_test_pred, *models = predict(x_test)
 # %% -------------------------------------------------------------------------------------------------------------------
 assert isinstance(y_test_pred, type(np.array([1])))  # Checks if your returned y_test_pred is a NumPy array
 assert y_test_pred.shape == (len(x_test),)           # Checks if its shape is this one (one label per image path)
-# Checks if the list of unique output label ids is either [0], [0, 1], [0, 1, 2] or [0, 1, 2, 3]
-assert list(np.unique(y_test_pred)) in [list(range(i)) for i in range(1, 5)]
+# Checks whether the range of your predicted labels is correct
+assert np.unique(y_test_pred).max() <= 3 and np.unique(y_test_pred).min() >= 0
