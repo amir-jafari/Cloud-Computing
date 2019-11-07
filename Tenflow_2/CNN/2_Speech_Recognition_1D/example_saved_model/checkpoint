@@ -1,0 +1,2 @@
+model_checkpoint_path: "cnn_spoken_digit_recognizer"
+all_model_checkpoint_paths: "cnn_spoken_digit_recognizer"
