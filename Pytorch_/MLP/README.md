@@ -1,4 +1,4 @@
-## Multi Layer Perceptron
+## Multi Layer Perceptron (MLP)
 
 * Function Approximation Example
 
