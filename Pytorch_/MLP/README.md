@@ -1,12 +1,12 @@
 ## Multi Layer Perceptron
 
-# Function Approximation Example
+* Function Approximation Example
 
-# XOR problem Example
+* XOR problem Example
 
-# Image Classification Example
+* Image Classification Example
 
-# Text Classsification Example
+* Text Classsification Example
 
-# Experiments Example (Grid Seeaching)
+* Experiments Example (Grid Seeaching)
  
