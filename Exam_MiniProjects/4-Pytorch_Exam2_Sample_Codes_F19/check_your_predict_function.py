@@ -1,5 +1,5 @@
 # This script shows an example of how to test your predict function before submission
-# 0. To use this, replace x_test (line 27) with a list of image paths. And
+# 0. To use this, replace x_test (line 26) with a list of absolute image paths. And
 # 1. Replace predict with your predict function
 # or
 # 2. Import your predict function from your predict script and remove the predict function define here
@@ -23,7 +23,7 @@ def predict(x):
     return y_pred
 
 # %% -------------------------------------------------------------------------------------------------------------------
-x_test = ["cells_1.png", "cells_2.png", "etc."]  # Dummy image path list placeholder
+x_test = ["/home/ubuntu/data/test/cells_1.png", "/home/ubuntu/data/test/cells_2.png", "etc."]  # Dummy image path list placeholder
 y_test_pred = predict(x_test)
 
 # %% -------------------------------------------------------------------------------------------------------------------
