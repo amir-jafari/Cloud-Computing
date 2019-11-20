@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 p = np.linspace(-2, 2, 100)
 t = np.sin(np.pi*p)
 
+
 class MyModel(tf.keras.Model):
   def __init__(self):
     super(MyModel, self).__init__()
