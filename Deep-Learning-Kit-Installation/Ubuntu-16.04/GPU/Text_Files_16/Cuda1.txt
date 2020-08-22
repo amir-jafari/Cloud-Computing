@@ -1,0 +1,3 @@
+source /etc/environment
+nvcc --version
+nvidia-smi

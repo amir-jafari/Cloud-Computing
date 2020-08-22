@@ -1,0 +1,14 @@
+sudo apt-get install -y python-pip python-dev
+sudo apt-get install -y python-tk
+sudo apt-get install -y python-matplotlib
+sudo apt-get install -y python-pandas
+sudo apt-get install -y python-sklearn
+sudo apt-get install -y python-skimage
+sudo apt-get install -y python-h5py
+sudo apt-get install -y python-leveldb
+sudo apt-get install -y python-protobuf
+sudo apt-get install -y python-gflags
+sudo apt-get install -y python-seaborn
+sudo apt-get install -y python-networkx
+sudo pip install --upgrade pip
+sudo pip install networkx

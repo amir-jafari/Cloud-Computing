@@ -1,0 +1,33 @@
+sudo apt update
+
+sudo apt upgrade
+
+gcloud compute firewall-rules create allow-vnc \
+    --allow tcp:5900-5999 \
+    --network default \
+    --source-ranges "0.0.0.0/0"
+
+gcloud compute firewall-rules create allow-xmpp \
+    --allow tcp:5222 \
+    --network default \
+    --source-ranges "0.0.0.0/0"
+
+sudo apt-get install ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal -y
+
+
+
+sudo apt-get install gnome-shell -y 
+sudo apt-get install ubuntu-gnome-desktop -y
+sudo apt-get install gnome-core -y 
+sudo apt-get install adwaita-icon-theme-full adwaita-icon-theme
+gsettings get org.gnome.metacity theme
+gsettings set org.gnome.metacity theme 'Adwaita'
+
+sudo apt-get install autocutsel
+
+sudo apt-get install tightvncserver
+
+touch ~/.Xresources
+
+
+

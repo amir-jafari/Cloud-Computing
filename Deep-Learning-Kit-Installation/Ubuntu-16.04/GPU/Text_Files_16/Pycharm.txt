@@ -1,0 +1,2 @@
+cd Downloads
+sudo dpkg -i pycharm-community_2016.3-mm1_all.deb

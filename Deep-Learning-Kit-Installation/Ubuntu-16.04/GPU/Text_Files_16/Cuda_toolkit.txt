@@ -1,0 +1,4 @@
+sudo apt-get install build-essential
+sudo apt-get install ocl-icd-opencl-dev
+sudo apt-get install nvidia-cuda-toolkit
+nvcc --version

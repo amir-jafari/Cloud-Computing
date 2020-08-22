@@ -1,0 +1,8 @@
+cd Downloads
+sudo tar -zxf cudnn-9.0-linux-x64-v7.tgz
+
+cd cuda
+sudo cp lib64/* /usr/local/cuda/lib64/
+sudo cp include/* /usr/local/cuda/include/
+
+cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2  

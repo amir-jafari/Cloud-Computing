@@ -1,0 +1,11 @@
+sudo ln -s /usr/lib/x86_64-linux-gnu/libhdf5_serial.so.10.1.0 /usr/lib/x86_64-linux-gnu/libhdf5.so
+
+
+sudo ln -s /usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.10.0.2 /usr/lib/x86_64-linux-gnu/libhdf5_hl.so
+
+
+make pycaffe -jX
+make all -jX
+make test -jX
+
+sudo nano ~/.bashrc

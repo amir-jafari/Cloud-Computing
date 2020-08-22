@@ -1,0 +1,7 @@
+export PYTHONPATH=/home/ajafari/caffe/python
+
+source ~/.bashrc
+sudo ln /dev/null /dev/raw1394
+sudo apt-get install python-skimage
+sudo apt-get install python-pydot
+sudo apt-get install python-protobuf

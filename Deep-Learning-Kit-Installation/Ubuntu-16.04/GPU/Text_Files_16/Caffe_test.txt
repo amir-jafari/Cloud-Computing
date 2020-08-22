@@ -1,0 +1,2 @@
+cd caffe
+./data/mnist/get_mnist.sh

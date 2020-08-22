@@ -1,0 +1,15 @@
+sudo apt-get install python-pip python-dev python-virtualenv # for Python 2.7
+sudo apt-get install python3-pip python3-dev python-virtualenv # for Python 3.n
+
+virtualenv --system-site-packages tensorflow2
+virtualenv --system-site-packages -p python3 tensorflow3
+
+source ~/tensorflow2/bin/activate
+easy_install -U pip
+pip install --upgrade tensorflow-gpu
+deactivate
+
+source ~/tensorflow3/bin/activate
+easy_install -U pip
+pip3 install --upgrade tensorflow-gpu
+deactivate
