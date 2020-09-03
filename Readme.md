@@ -24,5 +24,5 @@ Answering the frequent questions.
 
 * Python editor:
 
-Pycharm configuration and debuggers.
+Pycharm configuration and debuggers .
 
