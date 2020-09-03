@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Cloud Computing 
 
 ## Guide 1
