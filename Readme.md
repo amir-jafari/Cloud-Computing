@@ -25,7 +25,7 @@ Answering the frequent questions .
 * Python editor:
 
 Pycharm configuration and debuggers.
-=======
+
 # Basic Codes to Learn Different Frameworks
 
 ## Guide
@@ -35,5 +35,5 @@ Pycharm configuration and debuggers.
 * Tensorflow 2.X
 
 * Keras
->>>>>>> d424bb7500c8b56fe7e553656cbe82f80a121ae7
+
 
