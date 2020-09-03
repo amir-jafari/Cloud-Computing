@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cloud Computing 
 
 ## Guide 1
@@ -14,7 +15,7 @@ This folder contains the guide to create the public and private key.
 
 This folder contained all the installation manual for most of popular R and python packages.
 
-* File Transfer  
+* File Transfer:
 
 This tutorial shows you how to transfer file from AWS and GCP cloud back and forth.
 
@@ -25,4 +26,15 @@ Answering the frequent questions .
 * Python editor:
 
 Pycharm configuration and debuggers.
+=======
+# Basic Codes to Learn Different Frameworks
+
+## Guide
+
+* Pytorch
+
+* Tensorflow 2.X
+
+* Keras
+>>>>>>> d424bb7500c8b56fe7e553656cbe82f80a121ae7
 
