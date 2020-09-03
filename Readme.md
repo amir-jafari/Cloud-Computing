@@ -6,5 +6,5 @@
 
 * Tensorflow 2.X
 
-* Keras 
+* Keras
 
