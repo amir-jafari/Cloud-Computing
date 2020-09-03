@@ -4,7 +4,7 @@
 
 * Pytorch
 
-* afas 2.X
+* Tensorflow 2.X
 
 * Keras
 
