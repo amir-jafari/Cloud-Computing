@@ -14,7 +14,7 @@ This folder contains the guide to create the public and private key.
 
 This folder contained all the installation manual for most of popular R and python packages.
 
-* File Transfer     :
+* File Transfer 
 
 This tutorial shows you how to transfer file from AWS and GCP cloud back and forth.
 
