@@ -61,10 +61,7 @@ sudo python3 -m spacy download en
 #sudo pip3 install Pillow==6.1
 
 
-# ----------------- Pycharm 2019 -----------------
-#wget https://storage.googleapis.com/cuda-deb/pycharm-community-2019.1.2.tar.gz
-#wget https://storage.googleapis.com/cuda-deb/pycharm-community-2020.2.tar.gz
-#sudo tar -zxf pycharm-community-2020.2.tar.gz
+# ----------------- Pycharm 2020 -----------------
 wget https://storage.googleapis.com/cuda-deb/pycharm-community-2020.3.2.tar.gz
 sudo tar -zxf pycharm-community-2020.3.2.tar.gz
 sudo ln -s /home/ubuntu/pycharm-community-2020.3.2/bin/pycharm.sh pycharm
