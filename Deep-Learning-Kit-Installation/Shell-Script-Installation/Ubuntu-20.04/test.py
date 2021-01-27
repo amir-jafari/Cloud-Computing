@@ -6,7 +6,7 @@ os.system("nvidia-smi")
 print(20*'.'+20*'.'+20*'.')
 os.system("nvcc --version")
 print(20*'.'+20*'.'+20*'.')
-os.chdir('/home/ubuntu/cudnn_samples_v7/mnistCUDNN')
+os.chdir('/home/ubuntu/cudnn_samples_v8/mnistCUDNN')
 os.system("./mnistCUDNN")
 # %%------------------------------------------------------------
 print(20*'-'+'Python Packages'+20*'-')
