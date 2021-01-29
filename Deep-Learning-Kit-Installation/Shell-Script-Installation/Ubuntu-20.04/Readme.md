@@ -38,7 +38,7 @@ Now lets install cudnn 8.0.5 for CUDA 11.0 and all the softwares.
 chmod +x install-20-04-part2-V1.sh
 ```
 ```
-sudo ./install-20-04-part2-V1.sh
+./install-20-04-part2-V1.sh
 ```
 
 
