@@ -1,4 +1,4 @@
-# Ubuntu 18.04 Deep Learning Software Shell Script GUIDE
+# Ubuntu 20.04 Deep Learning Software Shell Script GUIDE
 
 ## Getting Started - Option 1
 Latest Version: To install all the Frameworks (tensorflow, theano, pytorch, Keras), launch your VM  and run the following commands in order in to your VM terminal 
@@ -84,7 +84,7 @@ if you did not get any error then exit out from python by exit().
 Note: Mac users need to acivate [Xquartz](https://www.xquartz.org/) in their machine and then open your terminal. In other words, when you are ssh ing to VM use -X as follows:
 
 ```
-ssh -X -i <private key file > <netid>@<External Ip address>
+ssh -X -i <private key file > <user name>@<External Ip address>
 ``` 
 
 Note: Windows users use Mobaexterma and you are fine.
