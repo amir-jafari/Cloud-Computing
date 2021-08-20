@@ -66,6 +66,7 @@ sudo python3 -m spacy download en
 sudo -H pip3 install textacy
 sudo -H pip3 install transformers
 sudo -H pip3 install datasets
+sudo -H pip3 install torchtext
 
 
 
