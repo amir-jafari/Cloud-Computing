@@ -28,7 +28,7 @@ sudo cp -r /usr/src/cudnn_samples_v8/ $HOME
 cd $HOME/cudnn_samples_v8/mnistCUDNN
 sudo make
 ./mnistCUDNN
-cd
+cd ~
 
 
 # ----------------- Python 3.x ------------------------------------
