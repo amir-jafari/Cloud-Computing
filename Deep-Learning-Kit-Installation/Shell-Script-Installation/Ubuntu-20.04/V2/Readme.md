@@ -2,7 +2,7 @@
 
 ## Getting Started - Option 1
 Latest Version: To install all the Frameworks (tensorflow, theano, pytorch, Keras), launch your VM  and run the following commands in order in to your VM terminal 
-Cuda 11.2 Cudnn 8.1.x
+Cuda 11.0 Cudnn 8.0.5
 
 ```
 sudo apt install git -y
@@ -30,9 +30,9 @@ chmod +x install-20-04-part1-V1.sh
 ```
 sudo ./install-20-04-part1-V1.sh
 ```
-By this time you should have CUDA 11.2 installed correctly. Your VM will be rebooted, wait and reconnect.
+By this time you should have CUDA 11.0 installed correctly. Your VM will be rebooted, wait and reconnect.
 
-Now lets install cudnn 8.1.x for CUDA 11.2 and all the softwares.
+Now lets install cudnn 8.0.5 for CUDA 11.0 and all the softwares.
 
 ```
 chmod +x install-20-04-part2-V1.sh
@@ -66,7 +66,9 @@ then in the python command line type
 ```
 import tensorflow
 ```
-
+```
+import keras
+```
 ```
 import torch
 ```
