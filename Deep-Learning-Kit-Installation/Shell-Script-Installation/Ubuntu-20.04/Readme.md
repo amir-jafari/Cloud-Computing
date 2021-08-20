@@ -22,6 +22,9 @@ mv install-20-04-part1-V1.sh ~
 mv install-20-04-part2-V1.sh ~
 ```
 ```
+mv install-20-04-part3-V1.sh ~
+```
+```
 cd ~
 ```
 ```
@@ -41,7 +44,7 @@ sudo reboot
 
 Your VM will be rebooted, wait and reconnect.
 
-Now lets install cudnn 8.1.x for CUDA 11.2 and all the softwares.
+Now lets install cudnn 8.1.x for CUDA 11.2.
 
 ```
 chmod +x install-20-04-part2-V1.sh
@@ -50,7 +53,21 @@ chmod +x install-20-04-part2-V1.sh
 ./install-20-04-part2-V1.sh
 ```
 
+```
+source /etc/environment
+```
+```
+source ~/.bashrc
+```
 
+Lets install all python softwares.
+
+```
+chmod +x install-20-04-part3-V1.sh
+```
+```
+./install-20-04-part3-V1.sh
+```
 ## Testing the framworks
 
 * Set Environment
