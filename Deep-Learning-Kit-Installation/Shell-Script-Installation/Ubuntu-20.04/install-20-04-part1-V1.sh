@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 
 sed 1d /etc/environment > /etc/environment
-echo 'PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.0/bin"' >> /etc/environment
+echo 'PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.2/bin"' >> /etc/environment
 
 source /etc/environment
 sudo reboot
