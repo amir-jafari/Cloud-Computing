@@ -22,7 +22,6 @@ sudo dpkg -i libcudnn8-dev_8.1.1.33-1+cuda11.2_amd64.deb
 sudo dpkg -i libcudnn8-samples_8.1.1.33-1+cuda11.2_amd64.deb
 
 
-source /etc/environment
-source ~/.bashrc
+
 
 
