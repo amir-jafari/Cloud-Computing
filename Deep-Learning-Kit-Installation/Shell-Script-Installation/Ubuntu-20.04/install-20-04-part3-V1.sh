@@ -23,7 +23,7 @@ nvidia-smi
 
 
 # ----------------- TEST Cudnn 8.x-----------------
-sudo apt install libfreeimage3 libfreeimage-dev
+sudo apt install libfreeimage3 libfreeimage-dev -y
 sudo cp -r /usr/src/cudnn_samples_v8/ $HOME
 cd $HOME/cudnn_samples_v8/mnistCUDNN
 sudo make
@@ -37,9 +37,8 @@ sudo apt install build-essential libssl-dev libffi-dev python3-dev -y
 sudo apt-get install tcl-dev tk-dev python-tk python3-tk -y
 sudo pip3 install --upgrade pip
 
-sudo apt install python3-testresources
+sudo apt install python3-testresources -y
 sudo -H pip3 install tensorflow-gpu
-sudo -H pip3 install keras
 sudo -H pip3 install -U scikit-learn
 sudo -H pip3 install torch
 sudo -H pip3 install torchvision
