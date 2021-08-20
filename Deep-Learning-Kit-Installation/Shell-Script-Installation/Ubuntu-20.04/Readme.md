@@ -50,7 +50,7 @@ Now lets install cudnn 8.1.x for CUDA 11.2.
 chmod +x install-20-04-part2-V1.sh
 ```
 ```
-./install-20-04-part2-V1.sh
+sudo ./install-20-04-part2-V1.sh
 ```
 
 ```
@@ -66,7 +66,7 @@ Lets install all python softwares.
 chmod +x install-20-04-part3-V1.sh
 ```
 ```
-./install-20-04-part3-V1.sh
+sudo ./install-20-04-part3-V1.sh
 ```
 ## Testing the framworks
 
