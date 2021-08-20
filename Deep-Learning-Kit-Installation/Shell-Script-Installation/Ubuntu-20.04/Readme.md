@@ -30,7 +30,16 @@ chmod +x install-20-04-part1-V1.sh
 ```
 sudo ./install-20-04-part1-V1.sh
 ```
-By this time you should have CUDA 11.2 installed correctly. Your VM will be rebooted, wait and reconnect.
+By this time you should have CUDA 11.2 installed correctly. 
+
+```
+source /etc/environment
+```
+```
+sudo reboot
+```
+
+Your VM will be rebooted, wait and reconnect.
 
 Now lets install cudnn 8.1.x for CUDA 11.2 and all the softwares.
 
