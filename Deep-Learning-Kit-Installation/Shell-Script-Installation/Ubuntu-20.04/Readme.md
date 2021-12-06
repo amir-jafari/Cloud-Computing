@@ -39,6 +39,9 @@ By this time you should have CUDA 11.2 installed correctly.
 source /etc/environment
 ```
 ```
+source ~/.bashrc
+```
+```
 sudo reboot
 ```
 
