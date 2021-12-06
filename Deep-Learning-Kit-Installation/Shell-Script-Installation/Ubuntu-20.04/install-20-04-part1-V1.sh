@@ -15,8 +15,8 @@
 # ----------------- Install Cuda 11.2 -----------------
 sudo apt update
 sudo apt upgrade
-sudo apt install nvidia-driver-390
-sudo apt install nvidia-driver-460
+sudo apt install nvidia-driver-390 -y
+sudo apt install nvidia-driver-460 -y
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
 sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
