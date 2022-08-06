@@ -70,7 +70,7 @@ sudo -H pip3 install torchtext
 
 # ----------------- Pycharm 2022 -----------------
 wget https://storage.googleapis.com/cuda-deb/pycharm-community-2022.2.tar.gz
-sudo tar -zxf sudo tar -zxf pycharm-community-2022.2.tar.gz
+sudo tar -zxf pycharm-community-2022.2.tar.gz
 sudo ln -s /home/ubuntu/pycharm-community-2022.2/bin/pycharm.sh pycharm
 
 # ----------------- apt get-------------------
