@@ -1,8 +1,8 @@
 # Ubuntu 20.04 Deep Learning Software Shell Script GUIDE
 
 ## Getting Started - Option 1
-Latest Version: To install all the Frameworks (tensorflow, theano, pytorch, Keras), launch your VM  and run the following commands in order in to your VM terminal 
-Cuda 11.2 Cudnn 8.1.x
+Latest Version: To install all the Frameworks (tensorflow, pytorch), launch your VM  and run the following commands in order in to your VM terminal 
+Cuda 11.6 Cudnn 8.2
 
 ```
 sudo apt install git -y
@@ -33,7 +33,7 @@ chmod +x install-20-04-part1-V1.sh
 ```
 sudo ./install-20-04-part1-V1.sh
 ```
-By this time you should have CUDA 11.2 installed correctly. 
+By this time you should have CUDA 11.6 installed correctly. 
 
 ```
 source /etc/environment
@@ -47,7 +47,7 @@ sudo reboot
 
 Your VM will be rebooted, wait and reconnect.
 
-Now lets install cudnn 8.1.x for CUDA 11.2.
+Now lets install cudnn 8.2 for CUDA 11.6.
 
 ```
 chmod +x install-20-04-part2-V1.sh

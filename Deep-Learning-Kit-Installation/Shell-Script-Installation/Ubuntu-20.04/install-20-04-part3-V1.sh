@@ -1,28 +1,21 @@
 #!/bin/bash
 
 # --------------------------------------------------------------#
-# Script to set up a Deep Learning VM on Google Cloud Platform	#
+# Script to set up a Deep Learning VM on Google Cloud Platform  #
 #---------------------------------------------------------------#
-#Autor: Amir Jafari		                                    	#
-#Date: 08/19/2021						                        #
-#                                                               #
-# INSTRUCTIONS: When you run this script, make sure you         #
-# include the username associated with your instance as         #
-# the first parameter. Otherwise, the softwares will not        #
-# work properly.   							                    #
-# ------------------------------------------------------------- #
+#Autor: Amir Jafari		                                  #
+#Date: 08/06/2022					                #
+#---------------------------------------------------------------#
 
 
 
-
-# -----------------TEST cuda 11.2-----------------
+# -----------------TEST cuda 11.6--------------------------------
 cat /proc/driver/nvidia/version
 nvcc --version
 nvidia-smi
 
 
-
-# ----------------- TEST Cudnn 8.x-----------------
+# ----------------- TEST Cudnn 8.2-------------------------------
 sudo apt install libfreeimage3 libfreeimage-dev -y
 sudo cp -r /usr/src/cudnn_samples_v8/ $HOME
 cd $HOME/cudnn_samples_v8/mnistCUDNN
@@ -31,7 +24,7 @@ sudo make
 cd ~
 
 
-# ----------------- Python 3.x ------------------------------------
+# ----------------- Python 3.8 ------------------------------------
 sudo apt install -y python3-pip
 sudo apt install build-essential libssl-dev libffi-dev python3-dev -y
 sudo apt-get install tcl-dev tk-dev python-tk python3-tk -y
@@ -71,8 +64,8 @@ sudo -H pip3 install torchtext
 
 
 
-# ----------------- Pycharm 2020 -----------------
-wget https://storage.googleapis.com/cuda-deb/pycharm-community-2020.3.2.tar.gz
+# ----------------- Pycharm 2022 -----------------
+wget https://storage.googleapis.com/cuda-deb/pycharm-community-2022.2.tar.gz
 sudo tar -zxf pycharm-community-2020.3.2.tar.gz
 sudo ln -s /home/ubuntu/pycharm-community-2020.3.2/bin/pycharm.sh pycharm
 

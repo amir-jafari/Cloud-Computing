@@ -35,12 +35,6 @@ except:
     print('tensorflow IS NOT INSTALLED')
 print(20*'.'+20*'.'+20*'.')
 try:
-    import keras
-    print('keras' + '---->' + 'Test Passed')
-except:
-    print('keras IS NOT INSTALLED')
-print(20*'.'+20*'.'+20*'.')
-try:
     import pandas
     print('pandas' + '---->' + 'Test Passed')
 except:
