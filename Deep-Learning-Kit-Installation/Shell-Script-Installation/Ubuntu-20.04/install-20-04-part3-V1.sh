@@ -55,10 +55,10 @@ sudo -H pip3 install tqdm
 sudo -H pip3 install nltk
 sudo -H pip3 install pyspellchecker
 
-sudo -H pip3 install -U pip setuptools wheel
-sudo -H pip3 install -U 'spacy[cuda116]'
+pip3 install -U pip setuptools wheel
+pip3 install -U 'spacy[cuda116]'
 export LC_ALL=C
-sudo -H python3 -m spacy download en_core_web_sm
+python3 -m spacy download en_core_web_sm
 
 sudo -H pip3 install textacy
 sudo -H pip3 install transformers
