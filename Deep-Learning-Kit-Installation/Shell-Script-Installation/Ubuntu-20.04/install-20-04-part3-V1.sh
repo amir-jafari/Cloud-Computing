@@ -54,8 +54,12 @@ sudo -H pip3 install tqdm
 
 sudo -H pip3 install nltk
 sudo -H pip3 install pyspellchecker
-sudo -H pip3 install -U spacy
-sudo python3 -m spacy download en
+
+sudo -H pip3 install -U pip setuptools wheel
+sudo -H pip3 install -U 'spacy[cuda116]'
+export LC_ALL=C
+sudo -H python3 -m spacy download en_core_web_sm
+
 sudo -H pip3 install textacy
 sudo -H pip3 install transformers
 sudo -H pip3 install datasets
@@ -66,8 +70,8 @@ sudo -H pip3 install torchtext
 
 # ----------------- Pycharm 2022 -----------------
 wget https://storage.googleapis.com/cuda-deb/pycharm-community-2022.2.tar.gz
-sudo tar -zxf pycharm-community-2020.3.2.tar.gz
-sudo ln -s /home/ubuntu/pycharm-community-2020.3.2/bin/pycharm.sh pycharm
+sudo tar -zxf sudo tar -zxf pycharm-community-2022.2.tar.gz
+sudo ln -s /home/ubuntu/pycharm-community-2022.2/bin/pycharm.sh pycharm
 
 # ----------------- apt get-------------------
 sudo apt-get install -y p7zip-full
