@@ -46,3 +46,6 @@ Link:
 
 [Link to PyCharm Community](https://youtrack.jetbrains.com/issue/PY-31779#focus=streamItem-27-3244551-0-0)
 
+4 . If you suso apt update give you source list error and malfunction, try
+
+	+ Answer: replace the content of /etc/apt/source.list with the source .list.txt file I provided here. Please cahneg the reagoins if you 	    			are not using us-east1 zone to your zone.
