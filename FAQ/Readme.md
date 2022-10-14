@@ -46,6 +46,9 @@ Link:
 
 [Link to PyCharm Community](https://youtrack.jetbrains.com/issue/PY-31779#focus=streamItem-27-3244551-0-0)
 
-4 . If you suso apt update give you source list error and malfunction, try
+4 . If you got an error when you are updating the packages * Malformed line xx in source list/etc/apt/sources.list*
 
-	+ Answer: replace the content of /etc/apt/source.list with the source .list.txt file I provided here. Please cahneg the reagoins if you 	    			are not using us-east1 zone to your zone.
+	+ Answer: GCP--> replace the content of /etc/apt/source.list with the GCP_source.list.txt file I provided here. 
+                AWS--> replace the content of /etc/apt/source.list with the AWS_source.list.txt file I provided here. 
+                Command: sudo nano /etc/apt/sources.list remove all lines and copy the txt contents into it.
+
