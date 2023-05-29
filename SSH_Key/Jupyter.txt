@@ -1,0 +1,5 @@
+pip3 install Jupyter
+
+ssh -L 8080:localhost:8080 amir@128.164.239.174
+
+jupyter notebook --no-browser --port=8080
