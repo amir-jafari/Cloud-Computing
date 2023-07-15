@@ -11,29 +11,29 @@ sudo apt install git -y
 git clone https://github.com/amir-jafari/Cloud-Computing.git
 ```
 ```
-cd Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubuntu-20.04/
+cd Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubuntu-22.04/
 ```
 We are going to install Version 1:
 
 ```
-mv install-20-04-part1-V1.sh ~
+mv install-22-04-part1-V1.sh ~
 ```
 ```
-mv install-20-04-part2-V1.sh ~
+mv install-22-04-part2-V1.sh ~
 ```
 ```
-mv install-20-04-part3-V1.sh ~
+mv install-22-04-part3-V1.sh ~
 ```
 ```
 cd ~
 ```
 ```
-chmod +x install-20-04-part1-V1.sh
+chmod +x install-22-04-part1-V1.sh
 ```
 ```
-sudo ./install-20-04-part1-V1.sh
+sudo ./install-22-04-part1-V1.sh
 ```
-By this time you should have CUDA 11.6 installed correctly. 
+By this time you should have CUDA 11.8 installed correctly. 
 
 ```
 source /etc/environment
@@ -47,13 +47,13 @@ sudo reboot
 
 Your VM will be rebooted, wait and reconnect.
 
-Now lets install cudnn 8.2 for CUDA 11.6.
+Now let's install cudnn 8.2 for CUDA 11.8.
 
 ```
-chmod +x install-20-04-part2-V1.sh
+chmod +x install-22-04-part2-V1.sh
 ```
 ```
-sudo ./install-20-04-part2-V1.sh
+sudo ./install-22-04-part2-V1.sh
 ```
 
 ```
@@ -63,13 +63,13 @@ source /etc/environment
 source ~/.bashrc
 ```
 
-Lets install all python softwares.
+Let's install all python pieces of software.
 
 ```
-chmod +x install-20-04-part3-V1.sh
+chmod +x install-22-04-part3-V1.sh
 ```
 ```
-sudo ./install-20-04-part3-V1.sh
+sudo ./install-22-04-part3-V1.sh
 ```
 ## Testing the framworks
 
