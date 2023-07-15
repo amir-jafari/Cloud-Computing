@@ -1,8 +1,8 @@
-# Ubuntu 20.04 Deep Learning Software Shell Script GUIDE
+# Ubuntu 22.04 Deep Learning Software Shell Script GUIDE
 
 ## Getting Started - Option 1
 Latest Version: To install all the Frameworks (tensorflow, pytorch), launch your VM  and run the following commands in order in to your VM terminal 
-Cuda 11.6 Cudnn 8.2
+Cuda 11.8 Cudnn 8.2
 
 ```
 sudo apt install git -y
@@ -47,7 +47,7 @@ sudo reboot
 
 Your VM will be rebooted, wait and reconnect.
 
-Now let's install cudnn 8.2 for CUDA 11.8.
+Now let's install cudnn 8.x for CUDA 11.8.
 
 ```
 chmod +x install-22-04-part2-V1.sh
@@ -134,7 +134,7 @@ source ~/.bashrc
 
 Change directory by
 ```
-cd /home/ubuntu/Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubuntu-20.04
+cd /home/ubuntu/Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubuntu-22.04
 ```
 Run the test.py and check the frameworks.
 
