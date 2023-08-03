@@ -1,0 +1,2 @@
+lsb_release -a
+
