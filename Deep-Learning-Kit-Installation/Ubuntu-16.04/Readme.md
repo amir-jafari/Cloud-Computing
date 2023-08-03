@@ -4,7 +4,7 @@
 
 * GPU
 
-If you install the GOU version the CPU version is already installed. 
+If you install the GPU version the CPU version is already installed. 
 
 * CPU
 
