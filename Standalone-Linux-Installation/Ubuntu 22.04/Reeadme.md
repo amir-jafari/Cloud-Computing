@@ -2,9 +2,10 @@
 - Install Ubuntu 22.04
   - Download the Ubuntu 22.04 ISO file [LINK HERE](https://ubuntu.com/download/desktop/thank-you?version=22.04.2&architecture=amd64)
 - Install Latest Nvidia Graphic Driver
-  - click on Ubuntu Launch pad
-  - Choose additional Driver
-  - Choose the latest Nvidia Driver and Apply Changes
+  - Click on Ubuntu Launch pad, Choose additional Driver, Choose the latest Nvidia Driver and Apply Changes
+  - Or Install it using terminal command
+    - $ sudo apt install nvidia-driver-460
+
    
 # 2. Check CUDA Paths
 - Run 2-cuda.sh
@@ -17,7 +18,6 @@
 - $ nvidia-smi
 - $ nvcc -V
 - $ cat /proc/driver/nvidia/version
-- 
 # 3. Run the following shell scripts
 - 3-cudnn.sh
 - 4-test_cuda_cudnn.sh
@@ -25,4 +25,10 @@
 - 6-other_softwares.sh
 
 # 4. GWU VNC Setting
-- gsettings set org.gnome.Vino require-encryption false
+- Click on the setting and sharing section
+  - Turn on the remote access and choose user and password
+  - Enable VNC
+- Type in the following commands into terminal: 
+  - sudo apt install vino
+  - gsettings set org.gnome.Vino require-encryption false
+  - gsettings set org.gnome.Vino prompt-enabled true
