@@ -29,7 +29,7 @@ export DISPLAY=localhost:10.0
 4. Go to tools and deployments and configuration.
 5. Click on the plus icon and name your remote deployment and the type should be SFTP.
 6. Hit ok and then complete the host with the DNS or IP address that you got from cloud dashboard.
-7. Fill the user name as the one chose in your SSH key process (ubuntu).
+7. Fill the username as the one chose in your SSH key process (ubuntu).
 8. Choose Authentication type as key pair then point it to your private key.
 9. Test SFTP and you should get the successful connection.
 10. On the second tab of deployment fill the mapping fields.
@@ -38,7 +38,7 @@ export DISPLAY=localhost:10.0
 13. Go to file and setting (preferences mac users) and search for project interpreter.
 14. Click on the gear box and hit add.
 15. On the left pan click on the SSH interpreter, choose the existing one (If you get the message on the window move or create choose move).
-16. From the drop down menu choose the one that you configured in the previous steps.
+16. From the dropdown menu choose the one that you configured in the previous steps.
 17. Select the path to the python (/usr/bin/python for python2 and /usr/bin/python3 for python3) 
 18. Now click ok. You are done with the configuration.
 19. Run one of the scripts from the repo.
