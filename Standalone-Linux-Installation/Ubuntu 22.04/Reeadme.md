@@ -10,8 +10,8 @@
 ### After Cuda installed by running 2-cuda.sh
 - Type the following commands and check the path is right
 - $ gedit ~/.bashrc
-  - export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-  - export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}  
+  - export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  - export PATH=/usr/local/cuda-11.8/bin${PATH:+:${PATH}}  
 	
 - $ source ~/.bashrc
 - $ nvidia-smi
