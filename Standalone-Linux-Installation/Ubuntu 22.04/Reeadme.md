@@ -1,4 +1,4 @@
-# OS  and Graphic Installation 
+# 1. OS  and Graphic Installation 
 - Install Ubuntu 22.04
   - Download the Ubuntu 22.04 ISO file [LINK HERE](https://ubuntu.com/download/desktop/thank-you?version=22.04.2&architecture=amd64)
 - Install Latest Nvidia Graphic Driver
@@ -6,8 +6,8 @@
   - Choose additional Driver
   - Choose the latest Nvidia Driver and Apply Changes
    
-# Check cuda paths
-### After Cuda installed by running 2-cuda.sh
+# 2. Check CUDA Paths
+- Run 2-cuda.sh
 - Type the following commands and check the path is right
 - $ gedit ~/.bashrc
   - export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
@@ -17,6 +17,12 @@
 - $ nvidia-smi
 - $ nvcc -V
 - $ cat /proc/driver/nvidia/version
+- 
+# 3. Run the following shell scripts
+- 3-cudnn.sh
+- 4-test_cuda_cudnn.sh
+- 5-software_install.sh
+- 6-other_softwares.sh
 
-# GWU VNC Setting
+# 4. GWU VNC Setting
 - gsettings set org.gnome.Vino require-encryption false
