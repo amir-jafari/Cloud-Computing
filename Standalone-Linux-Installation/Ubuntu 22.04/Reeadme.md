@@ -1,6 +1,6 @@
 # 1. OS  and Graphic Installation 
 - Install Ubuntu 22.04
-  - Download the Ubuntu 22.04 ISO file [LINK HERE](https://ubuntu.com/download/desktop/thank-you?version=22.04.2&architecture=amd64)
+  - Download the Ubuntu 22.04 ISO file [LINK HERE](https://ubuntu.com/download/desktop)
 - Install Latest Nvidia Graphic Driver
   - Click on Ubuntu Launch pad, Choose additional Driver, Choose the latest Nvidia Driver and Apply Changes
   - Or Install it using terminal command
