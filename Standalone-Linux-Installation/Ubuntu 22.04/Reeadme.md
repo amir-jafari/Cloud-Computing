@@ -4,7 +4,8 @@
 - Install Latest Nvidia Graphic Driver
   - Click on Ubuntu Launch pad, Choose additional Driver, Choose the latest Nvidia Driver and Apply Changes
   - Or Install it using terminal command
-    - $ sudo apt install nvidia-driver-460
+    - $ sudo ubuntu-drivers install
+    - $ sudo apt install nvidia-driver-470
 
    
 # 2. Check CUDA Paths
