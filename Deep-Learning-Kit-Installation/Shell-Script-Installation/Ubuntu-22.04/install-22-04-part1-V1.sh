@@ -6,6 +6,11 @@
 #Autor: Amir Jafari		                                          #
 #Date: 07/15/2023				                                        #
 #---------------------------------------------------------------#
+# ----------------- Install Nvidia Driver------------------------
+sudo apt-get purge nvidia-*
+sudo apt-get update
+sudo apt-get autoremove
+sudo apt install nvidia-driver-520
 # ----------------- Install Cuda 11.8 ---------------------------
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
 sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
