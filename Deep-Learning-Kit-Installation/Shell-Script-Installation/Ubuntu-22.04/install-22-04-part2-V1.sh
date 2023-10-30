@@ -17,6 +17,9 @@
 #sudo dpkg -i libcudnn8-dev_8.2.1.32-1+cuda11.3_amd64.deb
 #sudo dpkg -i libcudnn8-samples_8.2.1.32-1+cuda11.3_amd64.deb
 
+# ----------------- Install Nvidia Driver------------------------
+sudo apt install nvidia-driver-525
+
 wget https://storage.googleapis.com/cuda-deb/cudnn-local-repo-ubuntu2204-8.6.0.163_1.0-1_amd64.deb
 
 sudo dpkg -i cudnn-local-repo-ubuntu2204-8.6.0.163_1.0-1_amd64.deb
