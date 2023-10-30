@@ -7,7 +7,6 @@
 #Date: 07/15/2023				                                        #
 #---------------------------------------------------------------#
 # ----------------- Install Cuda 11.8 ---------------------------
-
 sudo wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
 sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
 sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/3bf863cc.pub
@@ -25,12 +24,7 @@ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH' >> ~/.
 source ~/.bashrc
 sudo ldconfig
 sudo reboot
-
-
-
-
-
-#sudo apt update && sudo apt upgrade
+# ----------------------------------------------------------------------------------------------------------------------
 #sudo apt install build-essential -y
 #wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
 #sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -47,10 +41,6 @@ sudo reboot
 #echo 'export PATH=/usr/local/cuda-11.8/bin${PATH:+:${PATH}}' >> ~/.bashrc
 #echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}' >> ~/.bashrc
 #echo 'export DISPLAY=localhost:10.0' >> ~/.bashrc
-
-
-#sudo apt update && sudo apt upgrade
-#sudo apt install nvidia-cuda-toolkit
 
 
 
