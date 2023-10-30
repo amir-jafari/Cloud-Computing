@@ -14,7 +14,9 @@ git clone https://github.com/amir-jafari/Cloud-Computing.git
 cd Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubuntu-22.04/
 ```
 We are going to install Version 1:
-
+```
+mv install-22-04-part0-V1.sh ~
+```
 ```
 mv install-22-04-part1-V1.sh ~
 ```
@@ -27,6 +29,13 @@ mv install-22-04-part3-V1.sh ~
 ```
 cd ~
 ```
+```
+chmod +x install-22-04-part0-V1.sh
+```
+```
+sudo ./install-22-04-part0-V1.sh
+```
+By this time you should have Nvidia installed correctly. 
 ```
 chmod +x install-22-04-part1-V1.sh
 ```
