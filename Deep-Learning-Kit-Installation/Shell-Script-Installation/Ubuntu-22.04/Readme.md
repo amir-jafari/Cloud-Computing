@@ -13,7 +13,7 @@ git clone https://github.com/amir-jafari/Cloud-Computing.git
 ```
 cd Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubuntu-22.04/
 ```
-We are going to install Version 1:
+We are going to install:
 ```
 mv install-22-04-part0-V2.sh ~
 ```
@@ -42,7 +42,7 @@ chmod +x install-22-04-part1-V2.sh
 ```
 sudo ./install-22-04-part1-V2.sh
 ```
-By this time you should have CUDA 11.8 installed correctly. 
+By this time you should have CUDA 12.1 installed correctly. 
 
 ```
 source /etc/environment
@@ -56,7 +56,7 @@ sudo reboot
 
 Your VM will be rebooted, wait and reconnect.
 
-Now let's install cudnn 8.x for CUDA 11.8.
+Now let's install cudnn 8.9 for CUDA 12.1.
 
 ```
 chmod +x install-22-04-part2-V2.sh
