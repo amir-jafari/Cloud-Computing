@@ -4,13 +4,13 @@
 # Script to set up a Deep Learning VM on Google Cloud Platform  #
 #---------------------------------------------------------------#
 #Autor: Amir Jafari		                                          #
-#Date: 07/15/2023					                                      #
+#Date: 12/23/2023					                                      #
 # ------------------------------------------------------------- #
-# -----------------Test cuda 11.8--------------------------------
+# -----------------Test cuda 12.1--------------------------------
 cat /proc/driver/nvidia/version
 nvcc --version
 nvidia-smi
-# ----------------- Test Cudnn 8.2-------------------------------
+# ----------------- Test Cudnn 8.9-------------------------------
 sudo apt install libfreeimage3 libfreeimage-dev -y
 sudo cp -r /usr/src/cudnn_samples_v8/ $HOME
 cd $HOME/cudnn_samples_v8/mnistCUDNN
@@ -26,7 +26,7 @@ sudo pip3 install --upgrade pip
 sudo apt install python3-testresources -y
 sudo -H pip3 install tensorflow
 sudo -H pip3 install -U scikit-learn
-sudo pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+sudo -H pip3 install torch torchvision torchaudio
 
 sudo -H pip3 install matplotlib
 sudo -H pip3 install pandas
