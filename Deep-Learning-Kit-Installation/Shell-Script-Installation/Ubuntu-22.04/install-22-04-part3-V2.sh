@@ -57,13 +57,14 @@ sudo -H pip3 install datasets
 # ----------------- Pycharm 2022 -----------------
 wget https://storage.googleapis.com/cuda-deb/pycharm-community-2022.2.tar.gz
 sudo tar -zxf pycharm-community-2022.2.tar.gz
-sudo ln -s /home/ubuntu/pycharm-community-2022.2/bin/pycharm.sh pycharm
+sudo ln -s /home/ubuntu/pycharm-community-2022.2/bin/pycharm.sh pycharm.sh
 
 # ----------------- apt get-------------------
 sudo apt-get install -y p7zip-full
 sudo apt install unzip
 sudo apt-get install gedit -y
 sudo apt-get install python3-gi-cairo
+sudo apt  install nvtop
 
 # ----------------- Chromium Browser-------------------
 sudo apt install chromium-browser -y
