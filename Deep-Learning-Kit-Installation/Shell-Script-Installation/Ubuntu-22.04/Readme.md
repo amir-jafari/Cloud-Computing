@@ -2,7 +2,7 @@
 
 ## Getting Started - Option 1
 Latest Version: To install all the Frameworks (tensorflow, pytorch), launch your VM  and run the following commands in order in to your VM terminal 
-Cuda 11.8 Cudnn 8.2
+Cuda 12.2 Cudnn 8.9
 
 ```
 sudo apt install git -y
@@ -15,32 +15,32 @@ cd Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubun
 ```
 We are going to install Version 1:
 ```
-mv install-22-04-part0-V1.sh ~
+mv install-22-04-part0-V2.sh ~
 ```
 ```
-mv install-22-04-part1-V1.sh ~
+mv install-22-04-part1-V2.sh ~
 ```
 ```
-mv install-22-04-part2-V1.sh ~
+mv install-22-04-part2-V2.sh ~
 ```
 ```
-mv install-22-04-part3-V1.sh ~
+mv install-22-04-part3-V2.sh ~
 ```
 ```
 cd ~
 ```
 ```
-chmod +x install-22-04-part0-V1.sh
+chmod +x install-22-04-part0-V2.sh
 ```
 ```
-sudo ./install-22-04-part0-V1.sh
+sudo ./install-22-04-part0-V2.sh
 ```
 By this time you should have Nvidia installed correctly. 
 ```
-chmod +x install-22-04-part1-V1.sh
+chmod +x install-22-04-part1-V2.sh
 ```
 ```
-sudo ./install-22-04-part1-V1.sh
+sudo ./install-22-04-part1-V2.sh
 ```
 By this time you should have CUDA 11.8 installed correctly. 
 
@@ -59,10 +59,10 @@ Your VM will be rebooted, wait and reconnect.
 Now let's install cudnn 8.x for CUDA 11.8.
 
 ```
-chmod +x install-22-04-part2-V1.sh
+chmod +x install-22-04-part2-V2.sh
 ```
 ```
-sudo ./install-22-04-part2-V1.sh
+sudo ./install-22-04-part2-V2.sh
 ```
 
 ```
@@ -75,10 +75,10 @@ source ~/.bashrc
 Let's install all python pieces of software.
 
 ```
-chmod +x install-22-04-part3-V1.sh
+chmod +x install-22-04-part3-V2.sh
 ```
 ```
-sudo ./install-22-04-part3-V1.sh
+sudo ./install-22-04-part3-V2.sh
 ```
 ## Testing the framworks
 
