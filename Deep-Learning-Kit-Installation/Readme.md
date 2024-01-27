@@ -2,6 +2,7 @@
 
 ## Guide
 
+
 * Remote Desktop GCP Ubuntu 16.04
 
 This guide shows you the step by step to create a remote desktop configuration for GCP.
