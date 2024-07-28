@@ -83,15 +83,12 @@ chmod +x install-24-04-part3-V2.sh
 ```
 sudo ./install-24-04-part3-V2.sh
 ```
-## Testing the framworks
+## Testing the frameworks
 
 * Set Environment
 
 Run the following commands
 
-```
-source /etc/environment
-```
 ```
 source ~/.bashrc
 ```
@@ -137,9 +134,6 @@ To activate pycharm enter the following commands
 
 Run the following commands
 
-```
-source /etc/environment
-```
 ```
 source ~/.bashrc
 ```
