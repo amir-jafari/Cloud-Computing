@@ -43,10 +43,17 @@ chmod +x install-24-04-part1-V2.sh
 sudo ./install-24-04-part1-V2.sh
 ```
 By this time you should have CUDA 12.5 installed correctly. 
+```
+nano ~/,bashrc
+```
 
+add following lines to the end of the script
 ```
-source /etc/environment
+echo 'export PATH=/usr/local/cuda-12.5/bin:$PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.5/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
 ```
+do CTRL+X then press y key and then ENTER.
+
 ```
 source ~/.bashrc
 ```
