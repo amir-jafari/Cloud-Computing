@@ -4,9 +4,11 @@ sudo apt install -y python3-pip
 sudo rm /usr/lib/python3.12/EXTERNALLY-MANAGED
 #sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev pkg-config wget
 #sudo apt install python3-testresources -y
-sudo pip3 install tensorflow[and-cuda]
+sudo pip3 install tensorflow[and-cuda]==2.17.0
 sudo pip3 install -U scikit-learn
-sudo pip3 install torch torchvision torchaudio
+sudo pip3 install torch==2.3.1
+sudo pip3 install torchvision==0.18.1
+sudo pip3 install torchaudio==2.3.1
 sudo pip3 install matplotlib
 sudo pip3 install pandas
 sudo pip3 install seaborn
