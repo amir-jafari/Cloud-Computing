@@ -44,7 +44,7 @@ sudo ./install-24-04-part1-V2.sh
 ```
 By this time you should have CUDA 12.5 installed correctly. 
 ```
-nano ~/,bashrc
+nano ~/.bashrc
 ```
 
 add following lines to the end of the script
@@ -70,10 +70,6 @@ chmod +x install-24-04-part2-V2.sh
 ```
 ```
 sudo ./install-24-04-part2-V2.sh
-```
-
-```
-source /etc/environment
 ```
 ```
 source ~/.bashrc
