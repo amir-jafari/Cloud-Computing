@@ -1,6 +1,6 @@
 # 1. OS  and Graphic Installation 
 - Install Ubuntu 24.04
-  - Download the Ubuntu 22.04 ISO file [LINK HERE](https://ubuntu.com/download/desktop)
+  - Download the Ubuntu 24.04 ISO file [LINK HERE](https://ubuntu.com/download/desktop)
 - Install Latest Nvidia Graphic Driver
   - Click on Ubuntu Launch pad, Choose additional Driver, Choose the latest Nvidia Driver and Apply Changes
   - Or Install it using terminal command
