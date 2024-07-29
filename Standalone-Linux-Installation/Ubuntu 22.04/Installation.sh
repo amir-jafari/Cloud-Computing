@@ -122,7 +122,7 @@ while true; do gpustat; sleep 1; done
 
 
 pip3 install Jupyter
-ssh -L 8080:localhost:8080 amir@128.164.239.174
+ssh -L 8080:localhost:8080 <name>@<IP>
 jupyter notebook --no-browser --port=8080
 
 
