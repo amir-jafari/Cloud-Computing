@@ -24,7 +24,7 @@ pip3 install -U scikit-learn
 pip3 install torch==2.7.1
 pip3 install torchvision==0.22.1
 pip3 install torchaudio==2.7.1
-pip3 install tensorflow[and-cuda]==2.19.0
+pip3 install tensorflow==2.19.0 --no-deps
 pip3 install --upgrade \
   nvidia-cublas-cu12==12.6.4.1 \
   nvidia-cuda-cupti-cu12==12.6.80 \
