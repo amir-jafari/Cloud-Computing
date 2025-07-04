@@ -2,7 +2,7 @@
 
 ## Getting Started - Option 1
 Latest Version: To install all the Frameworks (tensorflow, pytorch), launch your VM  and run the following commands in order in to your VM terminal 
-Cuda 12.5 Cudnn 9.5.1
+Cuda 12.5 Cudnn 9.2
 
 ```
 sudo apt install git -y
@@ -15,39 +15,39 @@ cd Cloud-Computing/Deep-Learning-Kit-Installation/Shell-Script-Installation/Ubun
 ```
 We are going to install:
 ```
-mv install-24-04-part0-V3.sh ~
+mv install-24-04-part0-V2.sh ~
 ```
 ```
-mv install-24-04-part1-V3.sh ~
+mv install-24-04-part1-V2.sh ~
 ```
 ```
-mv install-24-04-part2-V3.sh ~
+mv install-24-04-part2-V2.sh ~
 ```
 ```
-mv install-24-04-part3-V3.sh ~
+mv install-24-04-part3-V2.sh ~
 ```
 ```
 cd ~
 ```
 ```
-chmod +x install-24-04-part0-V3.sh
+chmod +x install-24-04-part0-V2.sh
 ```
 ```
-sudo ./install-24-04-part0-V3.sh
+sudo ./install-24-04-part0-V2.sh
 ```
 By this time you should have Nvidia installed correctly. 
 ```
-chmod +x install-24-04-part1-V3.sh
+chmod +x install-24-04-part1-V2.sh
 ```
 ```
-sudo ./install-24-04-part1-V3.sh
+sudo ./install-24-04-part1-V2.sh
 ```
 By this time you should have CUDA 12.5 installed correctly. 
 ```
 nano ~/.bashrc
 ```
 
-add the following lines to the end of the script
+add following lines to the end of the script
 ```
 echo 'export PATH=/usr/local/cuda-12.5/bin:$PATH' >> ~/.bashrc
 echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.5/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
@@ -63,13 +63,13 @@ sudo reboot
 
 Your VM will be rebooted, wait and reconnect.
 
-Now let's install cudnn 9.5.1 for CUDA 12.5.
+Now let's install cudnn 9.2 for CUDA 12.5.
 
 ```
-chmod +x install-24-04-part2-V3.sh
+chmod +x install-24-04-part2-V2.sh
 ```
 ```
-sudo ./install-24-04-part2-V3.sh
+sudo ./install-24-04-part2-V2.sh
 ```
 ```
 source ~/.bashrc
@@ -78,10 +78,10 @@ source ~/.bashrc
 Let's install all python pieces of software.
 
 ```
-chmod +x install-24-04-part3-V3.sh
+chmod +x install-24-04-part3-V2.sh
 ```
 ```
-sudo ./install-24-04-part3-V3.sh
+sudo ./install-24-04-part3-V2.sh
 ```
 ## Testing the frameworks
 
@@ -111,7 +111,7 @@ import torch
 ```
 import torchvision
 ```
-if you did not get any error, then exit out from python by exit().
+if you did not get any error then exit out from python by exit().
 
 
 
@@ -149,4 +149,4 @@ python3 test.py
 ```
 ## Getting Started - Option 2
 
-Send me your email address and I add you to my boot disk. You can start your VM and then choose a custom image, then pick the class image.
+Send me your email address and I add you to my boot disk. You can start your VM and then choose custom image, then pick the class image.
