@@ -2,6 +2,7 @@
 
 This document provides solutions to common issues encountered while working with AWS EC2 instances, SSH connections, and terminal operations. Each section includes exact error messages and step-by-step solutions.
 
+
 ---
 
 ## Table of Contents
