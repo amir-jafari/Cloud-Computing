@@ -49,8 +49,8 @@ nano ~/.bashrc
 
 add the following lines to the end of the script
 ```
-echo 'export PATH=/usr/local/cuda-12.5/bin:$PATH' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.5/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+echo 'export PATH=/usr/local/cuda-12.6/bin:$PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
 ```
 do CTRL+X then press y key and then ENTER.
 
