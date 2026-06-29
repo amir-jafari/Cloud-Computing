@@ -81,7 +81,7 @@ Let's install all python pieces of software.
 chmod +x install-26-04-part3-V1.sh
 ```
 ```
-sudo ./install-26-04-part3-V1.sh
+./install-26-04-part3-V1.sh
 ```
 ## Testing the frameworks
 
