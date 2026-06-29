@@ -17,6 +17,6 @@
 #   bundle their own cuDNN, so framework-only users can skip it.
 # ------------------------------------------------------------- #
 
-sudo apt-get update
-sudo apt-get -y install cudnn
+sudo add-apt-repository -y multiverse && sudo apt update
+sudo apt install -y nvidia-cudnn
 # If you specifically need the CUDA 13 build: sudo apt-get -y install cudnn-cuda-13
