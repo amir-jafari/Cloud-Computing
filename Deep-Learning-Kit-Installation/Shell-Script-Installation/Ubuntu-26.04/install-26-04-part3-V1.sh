@@ -68,9 +68,13 @@ pip install openpyxl
 pip install tqdm
 pip install nltk
 pip install pyspellchecker
-pip install -U 'spacy[cuda12x]'
+# NOTE: do NOT use spacy[cuda12x] on Py3.13 -- it forces an old spaCy that
+# fails to compile (blis 0.7 vs modern numpy). Plain spaCy already uses the
+# GPU through PyTorch, so the extra is unnecessary anyway.
+pip install -U spacy
 python -m spacy download en_core_web_sm
-pip install textacy
+# textacy removed: it is unmaintained and pulls 'floret', which fails to build
+# on GCC 15 (missing <cstdint>). Skip unless you specifically need it.
 pip install transformers
 pip install datasets
 pip install librosa
