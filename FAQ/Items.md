@@ -123,6 +123,15 @@ Connection Flow:
 - [ ] **GCP Cloud Storage** - Use cloud object storage
 - [ ] **GCP and PyCharm** - Integrate GCP with PyCharm
 - [ ] **GCP and PyCharm SSH** - Connect PyCharm to GCP instances
+---
+
+## S3
+
+- [ ] **S3 Bucket Creation** - Set up and manage S3 buckets
+- [ ] **S3 File Upload** - Transfer files to S3
+- [ ] **S3 File Download** - Retrieve files from S3
+- [ ] **S3 Bucket Policies** - Configure access permissions
+- [ ] **S3 Versioning** - Enable versioning for data protection
 
 ---
 
